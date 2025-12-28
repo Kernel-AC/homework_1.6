@@ -53,20 +53,20 @@ public class Main {
         }
         System.out.println();
         System.out.println("Задание 9");
-        int saving2=29000;
-        int totalSaving2=0;
-        for (int month=0; month<=12; month++){
-            totalSaving2= totalSaving2+totalSaving2/100;
-            totalSaving2=totalSaving2+saving2;
-            System.out.println("Месяц "+month+", сумма накоплений равна "+totalSaving2+" рублей");
+        int saving2 = 29000;
+        int totalSaving2 = 0;
+        for (int month = 0; month <= 12; month++) {
+            totalSaving2 = totalSaving2 + totalSaving2 / 100;
+            totalSaving2 = totalSaving2 + saving2;
+            System.out.println("Месяц " + month + ", сумма накоплений равна " + totalSaving2 + " рублей");
         }
         System.out.println();
         System.out.println("Задание 10");
-        int a=2;
-        int c=1;
-        for (int b=1;b<=10;b++){
-            c=a*b;
-            System.out.println(a+"*"+b+"="+c);
+        int a = 2;
+        int c = 1;
+        for (int b = 1; b <= 10; b++) {
+            c = a * b;
+            System.out.println(a + "*" + b + "=" + c);
         }
 
     }
