@@ -47,7 +47,7 @@ public class Main {
         System.out.println("Задание 8");
         int saving = 29000;
         int totalSaving = 0;
-        for (int month = 0; month <= 12; month++) {
+        for (int month = 1; month <= 12; month++) {
             totalSaving = totalSaving + saving;
             System.out.println("Месяц " + month + ", сумма накоплений равна " + totalSaving + " рублей");
         }
@@ -63,7 +63,7 @@ public class Main {
         System.out.println();
         System.out.println("Задание 10");
         int a = 2;
-        int c = 1;
+        int c;
         for (int b = 1; b <= 10; b++) {
             c = a * b;
             System.out.println(a + "*" + b + "=" + c);
